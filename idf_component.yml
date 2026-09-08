@@ -1,0 +1,22 @@
+version: "0.1.0"
+description: "Modernized ESP-IDF TWAI (CAN 2.0B) daemon driver using esp_driver_twai with event-driven RX, zero-copy TX pool, and automatic bus-off recovery."
+maintainers:
+  - "martinroger"
+repository: "https://github.com/martinroger/twai_daemon.git"
+license: "MIT"
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3
+  - esp32c5
+  - esp32c6
+  - esp32h2
+  - esp32p4
+
+dependencies:
+  idf: ">=5.5.0"
+
+files:
+  use_gitignore: true
+

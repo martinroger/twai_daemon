@@ -1,0 +1,29 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+dependencies.lock
+
+# Editor & IDE directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries and temporary files
+*.o
+*.a
+*.d
+*.obj
+*.gdb
+*.pyc
+__pycache__/
+
+# Scratch / temporary debug artifacts
+scratch/
+
